@@ -9,12 +9,12 @@ NOTE:---As it is hosted on Local Host, we will try to show this project  with th
 Teams Details:-
 
 Team Leader:-Abhishek Kumar<br>
-Web Designers:- Mandeep and Shruti shah
-Database Manager:-Rohit and Abhishek Kumar
-Portal Functionality responsibilty :- Abhishek Kumar
-Complete Backend Manager:- Abhishek Kumar and Rohit
-Script Writer:- Shruti Shah and Abhishek Kumar
-Debugger:- Abhishek Kumar and Rohit
+Web Designers:- Mandeep and Shruti shah<br>
+Database Manager:-Rohit and Abhishek Kumar<br>
+Portal Functionality responsibilty :- Abhishek Kumar<br>
+Complete Backend Manager:- Abhishek Kumar and Rohit<br>
+Script Writer:- Shruti Shah and Abhishek Kumar<br>
+Debugger:- Abhishek Kumar and Rohit<br>
 
 
 
