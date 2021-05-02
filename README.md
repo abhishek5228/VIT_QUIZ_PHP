@@ -1,4 +1,4 @@
-# OSP_VIT_QUIZ
+# ONGOING VIT_QUIZ_PORTAL
 
 VIT Quiz Portal(Adding QUIZ Section in VTOP)
 
@@ -53,4 +53,104 @@ Frontend:-
 1.PHP (fetching data from database and reflect it on frontend like login details and Quiz Questions)
 2.HTML(Design of Webpage )
 3.Used Vtop Source Code for reference(Frontend design).
+
+SCREENSHOT  TILL  NOW
+
+DATABASE DETAILS:-
+We have created total 3 database named quiz_oops as for now.
+1.Signup
+2.Category
+3.Questions
+
+Signup:-This is for storing signup details of the user.In this database table there are 5 columns id,name,email-id,pass and user.With the help of name and pass students will login into the portal.So here id is the primary key.
+
+Categories:- This is for storing subjects category.Of which category(subject) student have to give quiz.In this Database table we have total 2 columns id and cat_name.This cat_name will be used in showing the question of that respective category.
+Here id is primary key.
+
+Questions:-This is for storing all the questions and the solutions of that respective questions with there id in category database.This database have total 8 columns id,question,ans1,ans2,ans3,ans4,ans cat_id.Here cat_id is foreign key and id is Primary Key.
+
+
+Quiz_oops Database
+![image](https://user-images.githubusercontent.com/59703066/116801577-e725fc80-ab28-11eb-8d3e-71040970daf7.png)
+
+
+Signup Database
+id->Primary Key
+
+![image](https://user-images.githubusercontent.com/59703066/116801609-0b81d900-ab29-11eb-8bda-c1d883e6da1f.png)
+
+
+Category Database:-
+id→Primary Key
+
+![image](https://user-images.githubusercontent.com/59703066/116801613-18063180-ab29-11eb-8ae5-afce16a278c1.png)
+
+
+Questions Database:-
+id→Primary Key
+cat_id_→ Foreign Key
+
+![image](https://user-images.githubusercontent.com/59703066/116801626-35d39680-ab29-11eb-9ce5-f83bf430095e.png)
+
+COMPLETE FRONTEND DESIGN:-
+
+For eg:-
+Signup.php
+name=Hardik@123.
+email=hardikp@gmail.com.
+pass=Hardik@123.
+user=Hardik Pandya.
+
+![image](https://user-images.githubusercontent.com/59703066/116801644-53086500-ab29-11eb-87f0-a55f2bb8f51d.png)
+
+
+Signup Database:-
+id=18 Hardik@123
+
+![image](https://user-images.githubusercontent.com/59703066/116801647-5dc2fa00-ab29-11eb-9174-6082197d7553.png)
+
+
+Vitlogin.php
+user=Hardik@123.
+pass=Hardik@123.
+
+![image](https://user-images.githubusercontent.com/59703066/116801651-65829e80-ab29-11eb-8a88-a825e38ffa62.png)
+
+
+vtophome.php
+
+![image](https://user-images.githubusercontent.com/59703066/116801655-6e737000-ab29-11eb-8106-c0094ba1b52a.png)
+
+
+user profile 
+
+![image](https://user-images.githubusercontent.com/59703066/116801664-7c28f580-ab29-11eb-9d5a-0d22b8b88f46.png)
+
+
+
+home4.php
+ 
+![image](https://user-images.githubusercontent.com/59703066/116801672-864af400-ab29-11eb-8626-669c3fba1de4.png)
+ 
+ 
+ 
+ 
+qus_show.php
+
+![image](https://user-images.githubusercontent.com/59703066/116801680-9d89e180-ab29-11eb-993e-3d4cf3a3eb6e.png)
+
+
+
+finalresult.php
+
+![image](https://user-images.githubusercontent.com/59703066/116801683-a7134980-ab29-11eb-95de-115826d8205a.png)
+
+QUIZ PORTAL FLOWCHART
+
+![image](https://user-images.githubusercontent.com/59703066/116801763-420c2380-ab2a-11eb-90ef-81d27acdb925.png)
+
+
+QUIZ PORTAL PROTOTYPE
+
+![image](https://user-images.githubusercontent.com/59703066/116801768-53553000-ab2a-11eb-81f4-60cbcdd58631.png)
 
