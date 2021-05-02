@@ -8,7 +8,7 @@ NOTE:---As it is hosted on Local Host, we will try to show this project  with th
 
 Teams Details:-
 
-Team Leader:-Abhishek Kumar
+Team Leader:-Abhishek Kumar<br>
 Web Designers:- Mandeep and Shruti shah
 Database Manager:-Rohit and Abhishek Kumar
 Portal Functionality responsibilty :- Abhishek Kumar
