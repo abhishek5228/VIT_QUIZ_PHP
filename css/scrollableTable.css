@@ -1,0 +1,175 @@
+div.scrollableContainer {
+	clear: both;
+	border: 1px solid #3c8dbc;
+	height: 285px;
+	overflow: auto;
+	width: 970px;
+}
+
+html>body div.scrollableContainer {
+	overflow: hidden;
+	width: 970px;
+}
+
+div.scrollableContainer table {
+	float: left;
+	/* width: 740px */
+}
+
+html>body div.scrollableContainer table {
+	/* width: 756px */
+	
+}
+
+.customTable, .customTable>tbody>tr>td, .customTable>tbody>tr>th,
+	.customTable>tfoot>tr>td, .customTable>tfoot>tr>th, .customTable>thead>tr>td,
+	.customTable>thead>tr>th {
+	border: 1px solid #ddd;
+}
+
+.customTable thead.fixedHeader tr {
+	position: relative;
+}
+
+.customTable thead.fixedHeader th {
+	font-weight: normal;
+	padding: 4px 3px;
+	text-align: center;
+}
+
+html>body .customTable tbody.scrollContent {
+	display: block;
+	height: 262px;
+	overflow-x: auto;
+	overflow-y: scroll;
+	width: 970px;
+}
+
+html>body .customTable thead.fixedHeader {
+	display: table;
+	overflow: auto;
+	width: 970px;
+}
+
+* /
+.customTable tbody.scrollContent td, .customTable tbody.scrollContent tr.normalRow td
+	{
+	background: #FFF;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	padding: 2px 3px 3px 4px
+}
+
+.customTable tbody.scrollContent tr.alternateRow td {
+	background: #EEE;
+	border-bottom: none;
+	border-left: none;
+	border-right: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+	padding: 2px 3px 3px 4px
+}
+
+div.fixedTableContainer {
+	clear: both;
+	overflow: auto;
+	width: 98%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.fixedTableContainer table, div.fixedTableContainer table.customTable
+	{
+	width: 100%;
+}
+
+.customTable tr.tableHeader, .customTable tr.tableHeader td,
+	.customTable tr.tableHeader th {
+	color: #fff;
+	font-weight: bold;
+	background: #3c8dbc;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.customTable tr:FIRST-CHILD td {
+	align: center;
+}
+
+.customTable tr.tableContent {
+	background: #FFF;
+}
+
+.customTable tr.tableContent td {
+	padding: 5px 5px 5px 5px;
+}
+
+/*level1 table*/
+.customTable-level1 tr.tableHeader-level1, .customTable-level1 tr.tableHeader-level1 td,
+	.customTable-level1 tr.tableHeader-level1 th {
+	font-weight: bold;
+	background: #DCDCDC;
+	border: 1px solid #CCC !important;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.customTable-level1 tr.tableContent-level1 {
+	background: #FFF;
+}
+
+.customTable-level1 tr.tableContent-level1 td {
+	border: 1px solid #CCC !important;
+	padding: 5px 5px 5px 5px;
+}
+/*level1 table*/
+.glyphiconDefault {
+	color: #3c8dbc;
+}
+
+.glyphiconDanger {
+	color: red;
+}
+
+.textAlign-right {
+	text-align: right !important;
+	padding-right: 5px !important;
+}
+
+.textAlign-center {
+	text-align: center !important;
+}
+
+.textAlign-left {
+	text-align: left !important;
+	padding-left: 5px !important;
+}
+
+.icon-button {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	outline: none;
+	border: 0;
+	background: transparent;
+}
+
+.customTable tr.editable {
+	background: #f4f4f4 !important;
+}
+
+.panelHead, td.panelHead, .tableContent td.panelHead {
+	font-weight: bold;
+	color: #fff;
+	background: #3c8dbc;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
+
+.panelHead-secondary, td.panelHead-secondary, .tableContent td.panelHead-secondary
+	{
+	font-weight: bold;
+	background: #DCDCDC;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+}
