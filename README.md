@@ -29,7 +29,8 @@ We have came with some innovative idea which can overcome some problematic situa
 
 1. QUIZ will be available inside VTOP Login , so that they not need to depend on some other external source.
 2. Marks of the quiz will be automaticaly reflects in the marks section inside VTOP and admin can also access to it,so that faculty don't need to do any after work after conducting Quiz.
-3.Admin will be able to add Questions from there admin Login on VTOP, will provide a proper framework for faculty so that they find easy to add Questions.
+
+.Admin will be able to add Questions from there admin Login on VTOP, will provide a proper framework for faculty so that they find easy to add Questions.
 
 
 Reason for chosen this topic?
@@ -57,10 +58,12 @@ Frontend:-
 SCREENSHOTS
 
 DATABASE DETAILS:-
-We have created total 3 database named quiz_oops as for now.
+We have created total 5 Database named quiz_oops as for now.
 1.Signup
 2.Category
-3.Questions
+3.Question
+4.adminsignup
+5.result
 
 Signup:-This is for storing signup details of the user.In this database table there are 5 columns id,name,email-id,pass and user.With the help of name and pass students will login into the portal.So here id is the primary key.
 
