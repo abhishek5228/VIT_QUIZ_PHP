@@ -75,7 +75,7 @@ Result:This is for storing all the details of the quiz marks of the student and 
 Here id is Primary Key.
 
 Quiz_oops Database
-![image](https://user-images.githubusercontent.com/59703066/116801577-e725fc80-ab28-11eb-8d3e-71040970daf7.png)
+![image](https://user-images.githubusercontent.com/59703066/117833305-dba6a400-b293-11eb-81b9-522d021eacd0.png)
 
 
 Signup Database
@@ -96,7 +96,13 @@ cat_id_→ Foreign Key
 
 ![image](https://user-images.githubusercontent.com/59703066/116801626-35d39680-ab29-11eb-9ce5-f83bf430095e.png)
 
-COMPLETE FRONTEND DESIGN:-
+
+Adminsignup Database:-
+id->Primary Key
+
+![image](https://user-images.githubusercontent.com/59703066/117833829-4bb52a00-b294-11eb-852c-ab6aabe8c07b.png)
+
+COMPLETE FRONTEND DESIGN (STUDENT SIDE):-
 
 For eg:-
 Signup.php
@@ -148,6 +154,33 @@ qus_show.php
 finalresult.php
 
 ![image](https://user-images.githubusercontent.com/59703066/116801683-a7134980-ab29-11eb-95de-115826d8205a.png)
+
+COMPLETE FRONTEND DESIGN (ADMIN SIDE):-
+
+For eg:-
+adminlogin.php
+name=Jayakumar Srinivasan.
+email=jayak.vit.ac.in.
+pass=jaya@123.
+user=1234567.
+
+adminlogin.php
+
+![image](https://user-images.githubusercontent.com/59703066/117835789-c763a680-b295-11eb-8e7b-90441daa292f.png)
+
+
+admin.php
+
+![image](https://user-images.githubusercontent.com/59703066/117835979-f0843700-b295-11eb-8c72-03b24997a754.png)
+
+admin.php(Question added)
+
+![image](https://user-images.githubusercontent.com/59703066/117836333-38a35980-b296-11eb-87c3-3d6d65435ad3.png)
+
+admin.php(Admin Login Details)
+
+![image](https://user-images.githubusercontent.com/59703066/117836498-4d7fed00-b296-11eb-8324-fa0b32187346.png)
+
 
 QUIZ PORTAL FLOWCHART
 
