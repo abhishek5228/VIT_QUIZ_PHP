@@ -28,7 +28,7 @@ Problem statement:
 We have came with some innovative idea which can overcome some problematic situation:
 
 1. QUIZ will be available inside VTOP Login , so that they not need to depend on some other external source.
-2. Marks of the quiz will be automaticaly reflects in the marks section inside VTOP,so that faculty don't need to do any after work after conducting Quiz.
+2. Marks of the quiz will be automaticaly reflects in the marks section inside VTOP and admin can also access to it,so that faculty don't need to do any after work after conducting Quiz.
 3.Admin will be able to add Questions from there admin Login on VTOP, will provide a proper framework for faculty so that they find easy to add Questions.
 
 
@@ -54,7 +54,7 @@ Frontend:-
 2.HTML(Design of Webpage )
 3.Used Vtop Source Code for reference(Frontend design).
 
-SCREENSHOT  TILL  NOW
+SCREENSHOTS
 
 DATABASE DETAILS:-
 We have created total 3 database named quiz_oops as for now.
@@ -69,6 +69,10 @@ Here id is primary key.
 
 Questions:-This is for storing all the questions and the solutions of that respective questions with there id in category database.This database have total 8 columns id,question,ans1,ans2,ans3,ans4,ans cat_id.Here cat_id is foreign key and id is Primary Key.
 
+Adminsignup:-This is for storing signup details of the admin.In this database there are 5 columns id,name,email-id,user and pass.With the help of name and pass Admins will login into the portal.So here id is the primary key.
+
+Result:This is for storing all the details of the quiz marks of the student and it will reflect on admin side.In this database there are 3 columns id,name,marks.
+Here id is Primary Key.
 
 Quiz_oops Database
 ![image](https://user-images.githubusercontent.com/59703066/116801577-e725fc80-ab28-11eb-8d3e-71040970daf7.png)
