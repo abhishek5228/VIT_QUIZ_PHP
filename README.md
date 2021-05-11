@@ -194,3 +194,21 @@ QUIZ PORTAL PROTOTYPE
 
 ![image](https://user-images.githubusercontent.com/59703066/116801768-53553000-ab2a-11eb-81f4-60cbcdd58631.png)
 
+CONCLUSION
+
+
+In this thesis, we have focused on the automated system, which replaces the manual quiz system. But the interesting thing is that the thesis is not just an online quiz system; it has its own intelligent capability. This was actually our target feature of our thesis. Basically, we have tried to introduce the evaluation method of student-performance in
+the online quiz. Here, the questions are appeared under the guidance of the admin. We have implemented it in our thesis and it works successfully in our system. In this system, an educational institute can make their examination procedure automated in their own VTOP portal. It gives the opportunity to the authority to register teachers for different subjects and also give the facility to the students to register their courses for the examinations using the OIQS. Though this is a MCQ based quiz system but it is a perfect MCQ based online quiz system that gives a lot of facilities to the users, as a modern quiz system should have. This system is designed basically for the educational institute but also can be developed for other examination systems like job interview, quiz contest and for other criteria. 
+
+
+
+REFERENCES
+
+
+1.[Complete PHP Tutorial:-](https://www.youtube.com/watch?v=at19OmH2Bg4&list=PLu0W_9lII9aikXkRE0WxDt1vozo3hnmtR)
+2.[PHP adding dynamic timer to page:-](https://www.youtube.com/watch?v=MabjuyWrDI4&t=235s)
+3.[PHP OOP Tutorial:-](https://www.youtube.com/watch?v=MVEAYafrgKM&list=PL0b6OzIxLPbwoi6Urr4LZTz2AMMCtzqDt)
+4.[Inserting database results into array in PHp:-](https://www.youtube.com/watch?v=gnkI7hIC2RU)
+5.[PHP Sessions:-](https://www.youtube.com/watch?v=MElkQpJ0PO4&list=PL3Y-E4YSE4waHmKVoZ5CsviKygYUA8B92)
+6.[Insering multiple checkbox values in database:-](https://www.c-sharpcorner.com/UploadFile/16154c/how-to-insert-multiple-checkbox-value-in-one-column-in-datab/)
+
